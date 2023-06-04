@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+nav>ul{
+    display: inline-block;
+
+    display: flex;
+    text-decoration: none;
+    padding-left: 10px;
+}
+nav li a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+nav li:hover{
+    background-color: #f39e9e;
+}
+ 
+ 
+ 
+
+ .dropdown{
+    display: none;
+    position: absolute;
+background-color: #e7ef9c;
+    
+ }
+ nav>ul>li:hover>ul{
+    display: block;
+   
+ }
+
+    </style>
+</head>
+<body>
+    
+
+    <nav>
+        <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a href="galary">galary</a></li>
+        <li>  <a href="photo">photo
+
+            <ul class="dropdown">
+                <li><a href="">link-1</a></li>
+              
+                <li><a href="">link-2</a></li>
+               
+                <li><a href="">link-3</a></li>
+              
+                <li><a href="">link-4</a></li>
+              </ul>
+        </a>
+        </li>
+        <li>   <a href="contact">contact</a></li>
+        <li>   <a href="about">about</a></li>
+        <li> 
+       </ul>
+    
+    </nav>
+
+    <h1>welcome to home of my codding pleasure</h1>
+</body>
+</html>
