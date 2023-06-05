@@ -7,66 +7,42 @@
     <title>Document</title>
 
     <style>
-
-
-nav>ul{
-    display: inline-block;
-
-    display: flex;
-    text-decoration: none;
+ nav>ul>li{
+    display:inline-block;
     padding-left: 10px;
-}
-nav li a{
-    text-decoration: none;
-    padding-left: 10px;
-}
-nav li:hover{
-    background-color: #f39e9e;
-}
- 
- 
- 
-
- .dropdown{
+ }
+ nav>ul>li:hover{
+    background-color: #ebc0c0;
+ }
+.dropdown{
     display: none;
     position: absolute;
-background-color: #e7ef9c;
-    
- }
- nav>ul>li:hover>ul{
-    display: block;
-   
- }
+}
+nav>ul>li:hover>ul{
+    display:block;
+}
 
     </style>
 </head>
 <body>
-    
-
     <nav>
         <ul>
-        <li><a href="Home">Home</a></li>
-        <li><a href="galary">galary</a></li>
-        <li>  <a href="photo">photo
+            <li><a href="home">home</a></li>
+            <li><a href="about">about</a></li>
+            <li><a href="galary">galary</a></li>
+            <li><a href="display">display
+<ul class="dropdown">
+    <li><a href="#">1-1</a></li>
+    <li><a href="#">2-1</a></li>
+    <li><a href="#">3-1</a></li>
+    <li><a href="#">4-1</a></li>
+    <li><a href="#">5-1</a></li>
+</ul>
 
-            <ul class="dropdown">
-                <li><a href="">link-1</a></li>
-              
-                <li><a href="">link-2</a></li>
-               
-                <li><a href="">link-3</a></li>
-              
-                <li><a href="">link-4</a></li>
-              </ul>
-        </a>
-        </li>
-        <li>   <a href="contact">contact</a></li>
-        <li>   <a href="about">about</a></li>
-        <li> 
-       </ul>
-    
+            </a></li>
+            <li><a href="contact us">contact us</a></li>
+        </ul>
     </nav>
-
-    <h1>welcome to home of my codding pleasure</h1>
+ 
 </body>
 </html>
